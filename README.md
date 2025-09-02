@@ -66,4 +66,4 @@ You just need a modern web browser.
 
 Nishitha Tanukunuri - [nishithatanukunuri26@gmail.com](mailto:nishithatanukunuri26@gmail.com)
 
-Project Link: [https://github.com/your-username/finora-ui](https://github.com/your-username/finora-banking-app)
+Project Link: [https://github.com/nishithatanukunuri/finora-banking-app](https://github.com/your-username/finora-banking-app)
