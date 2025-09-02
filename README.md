@@ -1,10 +1,10 @@
 # Finora - Digital Banking UI
 
-![Finora Homepage Screenshot](./finora-screenshot.png)
+![Finora Homepage Screenshot](./images/finora-screenshot.png)
 
 A responsive and modern user interface for **Finora**, a fictional digital banking application. This project was built from scratch to showcase key front-end development skills, with a focus on creating a clean, elegant, and user-friendly experience across all devices.
 
-**Live Demo:** [**https://nishithatanukunuri.github.io/finora-banking-app/**](https://your-username.github.io/finora-banking-app/)
+**Live Demo:** [**https://nishithatanukunuri.github.io/finora-banking-app/**](https://nishithatanukunuri.github.io/finora-banking-app/)
 
 ---
 
@@ -64,6 +64,6 @@ You just need a modern web browser.
 
 ## Contact
 
-Your Name - [nishithatanukunuri26.com](mailto:nishithatanukunuri26.com)
+Nishitha Tanukunuri - [nishithatanukunuri26@gmail.com](mailto:nishithatanukunuri26@gmail.com)
 
 Project Link: [https://github.com/your-username/finora-ui](https://github.com/your-username/finora-banking-app)
