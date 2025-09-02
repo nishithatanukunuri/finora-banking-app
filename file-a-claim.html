@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>File a Claim - Finora</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/16d8050cb9.js" crossorigin="anonymous"></script>
+    <style>
+        .claim-form-container {
+            padding: 120px 50px 50px 50px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .claim-form-container h1 { margin-bottom: 1rem; }
+        .claim-form-container p { margin-bottom: 2rem; color: #555; }
+        .claim-form-container form input,
+        .claim-form-container form select,
+        .claim-form-container form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+        .claim-form-container form button { width: 100%; }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar-logo"><i class="fa-solid fa-building-columns"></i>  Finora</a>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="index.html" class="navbar__links">Home</a></li>
+                <li class="navbar__item"><a href="services.html" class="navbar__links">Services</a></li>
+                <li class="navbar__item"><a href="pricing.html" class="navbar__links">Pricing</a></li>
+                <li class="navbar__item"><a href="portfolio.html" class="navbar__links">Portfolios</a></li>
+                <li class="navbar__item"><a href="contact.html" class="navbar__links">Contact Us</a></li>
+                <li class="navbar__btn mobile"><a href="signup.html" class="button">Signup</a></li>
+            </ul>
+            <div class="navbar__btn desktop">
+                <a href="signup.html" class="button">Sign Up</a>
+            </div>
+            <button class="navbar__toggle" id="mobile-menu" aria-label="Toggle Navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="claim-form-container">
+        <h1>Dispute a Transaction or File a Claim</h1>
+        <p>If you see an unauthorized transaction or have an issue with a purchase, please complete the form below. Our team will investigate and get back to you within 10 business days.</p>
+        <form id="claim-form">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input type="email" name="email" placeholder="Email Address" required />
+            <input type="text" name="transaction_id" placeholder="Transaction ID (if known)" />
+            <input type="text" name="transaction_amount" placeholder="Transaction Amount (e.g., $49.99)" required />
+            <select name="reason" required>
+                <option value="">-- Select a Reason --</option>
+                <option value="unauthorized">I did not authorize this transaction</option>
+                <option value="not_received">I did not receive the goods or services</option>
+                <option value="incorrect">The amount was incorrect</option>
+                <option value="other">Other</option>
+            </select>
+            <textarea name="description" rows="6" placeholder="Please provide a detailed description of the issue." required></textarea>
+            <button type="submit" class="button">Submit Claim</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__links-wrapper">
+                <div class="footer__links-items">
+                    <h2>About Us</h2>
+                    <a href="how-it-works.html">How it works</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="careers.html">Careers</a>
+                    <a href="investments.html">Investments</a>
+                    <a href="terms-and-services.html">Terms and Services</a>
+                </div>
+                <div class="footer__links-items">
+                    <h2>Contact Us</h2>
+                    <a href="contact.html">Contact</a>
+                    <a href="support.html">Support</a>
+                    <a href="file-a-claim.html">File a Claim</a>
+                    <a href="sponsorships.html">Sponsorships</a>
+                </div>
+                <div class="footer__links-items">
+                    <h2>Finances</h2>
+                    <a href="portfolio.html">Portfolios</a>
+                    <a href="news.html">News</a>
+                    <a href="locations.html">Locations</a>
+                    <a href="credit-cards.html">Credit Cards</a>
+                </div>
+                <div class="footer__links-items">
+                    <h2>Social Media</h2>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <section class="social_media">
+            <div class="social__media-wrap">
+                <div class="footer__logo">
+                    <a href="index.html" id="footer-logo"><i class="fa-solid fa-building-columns"></i></a>
+                </div>
+                <p class="website__rights">© Finora <span id="year"></span> All rights reserved.</p>
+                <div class="social__icons">
+                    <a href="https://www.facebook.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://youtube.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://linkedin.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

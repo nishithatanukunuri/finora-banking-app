@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pricing – Finora</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/16d8050cb9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar-logo"><i class="fa-solid fa-building-columns"></i>  Finora</a>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="index.html" class="navbar__links">Home</a></li>
+                <li class="navbar__item"><a href="services.html" class="navbar__links">Services</a></li>
+                <li class="navbar__item"><a href="pricing.html" class="navbar__links">Pricing</a></li>
+                <li class="navbar__item"><a href="portfolio.html" class="navbar__links">Portfolios</a></li>
+                <li class="navbar__item"><a href="contact.html" class="navbar__links">Contact Us</a></li>
+                <li class="navbar__btn mobile"><a href="signup.html" class="button">Signup</a></li>
+            </ul>
+            <div class="navbar__btn desktop">
+                <a href="signup.html" class="button">Sign Up</a>
+            </div>
+            <button class="navbar__toggle" id="mobile-menu" aria-label="Toggle Navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="services pricing-page-section">
+        <div class="container">
+            <h2>Choose the right plan for you</h2>
+            <div class="pricing-toggle">
+                <div class="toggle-container">
+                    <span class="toggle-option">Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="pricing-toggle-checkbox" onclick="switchPricing()"/>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="toggle-option">Yearly</span>
+                </div>
+                <div class="save-percentage-container">
+                    <span class="save-percentage">Save 20%</span>
+                </div>
+            </div>
+
+            <div class="services__container">
+                <div class="services__card">
+                    <div class="card-content">
+                        <h3>Basic Plan</h3>
+                        <div class="card-price">
+                            <p class="price monthly-price">$10/mo</p>
+                            <p class="price yearly-price hidden">$8/mo</p>
+                            <a href="signup.html" class="price-btn">Get Started</a>
+                            <p class="small-desc">Everything you need to get started.</p>
+                        </div>
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Digital Checking Account</li>
+                                <li><i class="fa-solid fa-check"></i> Access to basic features</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card services__card--popular">
+                    <span class="popular-badge">Most Popular</span>
+                    <div class="card-content">
+                        <h3>Standard Plan</h3>
+                        <div class="card-price">
+                            <p class="price monthly-price">$30/mo</p>
+                            <p class="price yearly-price hidden">$24/mo</p>
+                            <a href="signup.html" class="price-btn">Get Started</a>
+                            <p class="small-desc">Perfect for individuals looking to take control of their finances.</p>
+                        </div>
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Automatic Expense Tracking</li>
+                                <li><i class="fa-solid fa-check"></i> Customizable Budgets</li>
+                                <li><i class="fa-solid fa-check"></i> Personalized Financial Reports</li>
+                                <li><i class="fa-solid fa-check"></i> Goal Based Savings Tracking</li>
+                                <li><i class="fa-solid fa-check"></i> Email & Chat Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <div class="card-content">
+                        <h3>Premium Plan</h3>
+                        <div class="card-price">
+                            <p class="price monthly-price">$50/mo</p>
+                            <p class="price yearly-price hidden">$40/mo</p>
+                            <a href="signup.html" class="price-btn">Get Started</a>
+                            <p class="small-desc">Ideal for investors and advanced users.</p>
+                        </div>
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Automatic Expense Tracking</li>
+                                <li><i class="fa-solid fa-check"></i> Customizable Budgets</li>
+                                <li><i class="fa-solid fa-check"></i> Personalized Financial Reports</li>
+                                <li><i class="fa-solid fa-check"></i> Investment Management</li>
+                                <li><i class="fa-solid fa-check"></i> AI-Powered Financial Insights</li>
+                                <li><i class="fa-solid fa-check"></i> Priority Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__links-wrapper">
+                    <div class="footer__links-items">
+                        <h2>About Us</h2>
+                        <a href="how-it-works.html">How it works</a>
+                        <a href="testimonials.html">Testimonials</a>
+                        <a href="careers.html">Careers</a>
+                        <a href="investments.html">Investments</a>
+                        <a href="terms-and-services.html">Terms and Services</a>
+                    </div>
+                    <div class="footer__links-items">
+                        <h2>Contact Us</h2>
+                        <a href="contact.html">Contact</a>
+                        <a href="support.html">Support</a>
+                        <a href="file-a-claim.html">File a Claim</a>
+                        <a href="sponsorships.html">Sponsorships</a>
+                    </div>
+                    <div class="footer__links-items">
+                        <h2>Finances</h2>
+                        <a href="portfolio.html">Portfolios</a>
+                        <a href="news.html">News</a>
+                        <a href="locations.html">Locations</a>
+                        <a href="credit-cards.html">Credit Cards</a>
+                    </div>
+                    <div class="footer__links-items">
+                        <h2>Social Media</h2>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="social_media">
+                <div class="social__media-wrap">
+                    <div class="footer__logo">
+                        <a href="index.html" id="footer-logo"><i class="fa-solid fa-building-columns"></i></a>
+                    </div>
+                    <p class="website__rights">© Finora <span id="year"></span> All rights reserved.</p>
+                    <div class="social__icons">
+                        <a href="https://facebook.com" class="social__icon-link" aria-label="Facebook" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" class="social__icon-link" aria-label="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com" class="social__icon-link" aria-label="Twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://youtube.com" class="social__icon-link" aria-label="YouTube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://linkedin.com" class="social__icon-link" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
